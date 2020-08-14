@@ -1,0 +1,170 @@
+
+.Tittle {
+    color: white;
+    padding: 25px;
+    font-family: Arial;
+    text-align: center;
+    font-size:40px;
+    background:#687864;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+body{
+    background: #F2F2F2;
+}
+
+.Center {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 50px;
+}
+
+.Right {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    margin-bottom:-30px;
+}
+
+.Nhap{
+    font-size:28px;
+    border:none;
+    width: 700px;
+}
+
+.Nhap:focus{
+    border: 2px solid blue;
+}
+
+
+.ThayDoi{
+    font-size:20px;
+    border:none;
+}
+
+.ThayDoi:focus{
+    border: 2px solid blue;
+}
+
+
+button{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: #31708E;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight:800;
+}
+button:hover {
+    background: #40a9ff;
+}
+
+#btnGet {
+    margin-left: 30px;
+    border-radius: 8px;
+}
+
+.SelectBox{
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+    font-size:16px;
+    font-weight:600;
+    height:30px;
+  
+    /*for firefox*/
+    -moz-appearance: none;
+    /*for chrome*/
+    -webkit-appearance:none;
+    appearance: none;
+    text-align:center;
+    border: none;
+    box-shadow: none;
+}
+
+#dropDownPage {
+    justify-content: right;
+    margin-right: -8px;
+}
+
+#dropDownLinhVuc{
+    width: 400px;
+}
+
+footer{
+    display: flex;
+    background:#687864;
+    color: #fff;
+    margin-bottom:-20px;
+    height: 60px;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    /* bottom: 20px; */
+}
+
+.icon{ 
+    margin-left:10px;
+    color:#31708E;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.icon:hover{
+    color: #40a9ff;
+
+}
+
+.iconLogOut{ 
+    position: absolute;
+    right: 25px;
+    top:5px;
+    color:#40a9ff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.iconLogOut:hover{
+    color:#fff;
+}
+
+#LinhVucInput{
+    visibility: hidden;
+}
+
+#btnUpdate{
+    visibility: hidden;
+}
+
+.cung1hang{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.NoContact{
+    color: #fff;
+}
+
+.Contact{
+    color:#000;
+    background-color: #31708E;
+}
+.CustomSelectRow{
+    font-weight: 800;
+}
+
+.col-hidden{
+    display: none;
+}
+
+.form-horizontal{
+    margin-top:30px;
+}
